@@ -1,16 +1,37 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    background: #222;
+    padding: 0px;
+    gap: 10px;
+    background: #2d2d2d;
     color: white;
   }
   .nav ul {
     display: flex;
+    justify-content: space-between;
     list-style: none;
+    padding-left: 24px;
+    padding-top: 24px;
   }
   .nav ul li {
-    margin: 0 15px;
+    margin: 0 24px;
+    justify-content: space-evenly;
     cursor: pointer;
   }
+
+  .monks-hero {
+    margin: 0 auto;
+    width: 100%;
+  }
   
+  .logo {
+    margin: 0 auto;
+    width: 180px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-top: 24px;
+    padding-left: 80px;
+  }
+
