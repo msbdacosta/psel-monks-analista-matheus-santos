@@ -1,0 +1,12 @@
+.footer {
+    padding: 20px;
+    background: #111;
+    color: white;
+    text-align: center;
+  }
+  .social-media span, .footer-links span {
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
