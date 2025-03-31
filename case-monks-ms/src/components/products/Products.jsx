@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/Home.css";
+import "./Products.css";
 
-const Home = () => {
+const Products= () => {
   return (
-    <div className="home">
+    <div className="products">
       <section className="hero">
         <h1>Lorem ipsum dolor sit amet consectetur</h1>
         <p>Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus...</p>
@@ -12,9 +12,10 @@ const Home = () => {
         <div className="card">Lorem ipsum dolor</div>
         <div className="card">Lorem ipsum dolor</div>
         <div className="card">Lorem ipsum dolor</div>
+        <div className="card">Lorem ipsum dolor</div>
       </section>
     </div>
   );
 };
 
-export default Home;
+export default Products;

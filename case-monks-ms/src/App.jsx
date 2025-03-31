@@ -1,19 +1,27 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
+import {
+  Header,
+  Products,
+  Gallery,
+  AppSection,
+  Products_2,
+  Cards,
+  Forms,
+  Footer
+} from "./components/index.js";
 import "./styles/global.css";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Header />
-      <main className="container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </main>
+      <Products />
+      <Gallery />
+      <AppSection />
+      <Products_2 />
+      <Cards />
+      <Forms />
       <Footer />
     </Router>
   );
